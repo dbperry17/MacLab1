@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var wBox: UITextField!
 
+    @IBOutlet weak var bmiLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,12 +34,15 @@ class ViewController: UIViewController {
             let hVal = Int(self.hBox.text!)!
             let wVal = Int(self.wBox.text!)!
             
-            print("Height = \(hVal)")
-            print("Weight = \(wVal)")
             
             let bmiVal = Float((Float(wVal) * 703) / (Float(hVal) * Float(hVal)))
             
-            print("BMI = \(bmiVal)")
+            switch bmiVal
+            {
+            }
+
+            
+            bmiLabel.text = String(bmiVal)
         }
         else
         {
