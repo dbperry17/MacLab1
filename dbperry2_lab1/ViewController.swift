@@ -34,6 +34,10 @@ class ViewController: UIViewController {
             
             print("Height = \(hVal)")
             print("Weight = \(wVal)")
+            
+            let bmiVal = Float((Float(wVal) * 703) / (Float(hVal) * Float(hVal)))
+            
+            print("BMI = \(bmiVal)")
         }
         else
         {
