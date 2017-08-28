@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var hBox: UITextField!
+    
+    @IBOutlet weak var wBox: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,9 +23,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBOutlet weak var hBox: UITextField!
-
-    @IBOutlet weak var wBox: UITextField!
+    
+    @IBAction func bmiButton(_ sender: UIButton) {
+        
+        let hText = Int(self.hBox.text!)!
+        
+        print(hText)
+        
+    }
 }
 
