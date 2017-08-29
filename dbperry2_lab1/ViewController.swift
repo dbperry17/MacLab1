@@ -55,6 +55,7 @@ class ViewController: UIViewController {
                 BMIStringLabel.textColor = UIColor(red: 0.9, green: 0.0, blue: 0.0, alpha: 1.0)
             default:
                 BMIStringLabel.text = "Invalid Number"
+                BMIStringLabel.textColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
             }
 
             

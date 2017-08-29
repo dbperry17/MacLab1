@@ -35,10 +35,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C891CDD91F54B5FC006ADCAD = {
+		9AE72D6C1F5532E100847587 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
 				C891CDE41F54B5FC006ADCAD /* dbperry2_lab1 */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		C891CDD91F54B5FC006ADCAD = {
+			isa = PBXGroup;
+			children = (
+				9AE72D6C1F5532E100847587 /* New Group */,
 				C891CDE31F54B5FC006ADCAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -297,6 +305,7 @@
 				C891CDF61F54B5FC006ADCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
